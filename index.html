@@ -14,109 +14,126 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      .recipe3 {color: rgb(246, 126, 125);}
+      .fruit-sando:hover {
+        color: rgb(246, 126, 125);
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style> 
-    table, th, td {
-            border: 1px solid;
-          }
-    "#fruit-sando" {color rgb: (246, 126, 125) }
-  </style>
-</head>
+  <body>
+    <h1>Ally's Recipe Book !!</h1>
 
-<body>
+    <h2>Contents:</h2>
 
-  <h1>Ally's Recipe Book !!</h1>
+    <ol>
+      <li><a href="?">Recipe #1</a></li>
+    </ol>
 
-  <h2>Contents:</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Meal</th>
+          <th>Ingredients</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Tomato Egg Stir-Fry w/Rice <br />
+            <img
+              src="https://thewoksoflife.com/wp-content/uploads/2019/05/tomato-egg-9.jpg"
+              width="200"
+            />
+            <br />
+            <a href="https://thewoksoflife.com/stir-fried-tomato-and-egg/">
+              More about Tomato Egg Stir-Fry</a
+            >
+          </td>
+          <td>
+            <ul>
+              <li>Tomatoes</li>
+              <li>Fried eggs</li>
+              <li>Salt</li>
+              <li>Sugar</li>
+              <li>Water</li>
+              <li>Desired seasonings (pepper, salt, msg, etc.)</li>
+            </ul>
+          </td>
+          <td>$13</td>
+        </tr>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+        <tr>
+          <td>
+            Katsu Curry <br />
+            <img
+              src="https://thewoksoflife.com/wp-content/uploads/2022/03/chicken-katsu-curry-rice-15.jpg"
+              width="200"
+            />
+            <br />
+            <a
+              href="https://japan.recipetineats.com/katsu-curry-japanese-curry-rice-with-chicken-cutlet/"
+            >
+              Detailed Recipe for Katsu Curry!!</a
+            >
+          </td>
 
- 
-        <table>
-            <thead>
-                <tr>
-                    <th>Meal</th>
-                    <th>Ingredients</th> 
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-             <tr>
-              <td> Tomato Egg Stir-Fry w/Rice 
-                <br> <img src="https://thewoksoflife.com/wp-content/uploads/2019/05/tomato-egg-9.jpg" width="200">
-               <br> <a href="https://thewoksoflife.com/stir-fried-tomato-and-egg/"> More about Tomato Egg Stir-Fry</a>
-               </td>
-              <td> <ul>
-                <li>Tomatoes</li>
-                <li>Fried eggs</li>
-                <li>Salt</li>
-                <li>Sugar</li>
-                <li>Water</li>
-                <li>Desired seasonings (pepper, salt, msg, etc.)</li>
-                </ul></td>
-              <td> $13 </td>
-              </tr>
-          
-               
-            
-          <tr>
-              <td> Katsu Curry 
-                <br> <img src="https://thewoksoflife.com/wp-content/uploads/2022/03/chicken-katsu-curry-rice-15.jpg" width="200">
-           <br> <a href="https://japan.recipetineats.com/katsu-curry-japanese-curry-rice-with-chicken-cutlet/"> Detailed Recipe for Katsu Curry!!</a> 
-            </td>
-          
-              <td> <ul>
-                <li>Deep fried chicken/pork cutlet </li>
-                <li>Curry sauce</li>
-                <li>Vegetables (carrots, potatoes, onions)</li>
-                <li> Steamed rice</li>
-                </ul> </td>
-              <td> $16</td>
-              </tr>
-              
-             
-            <tr>
-              <td> Fruit Sando
-                <br> <img src="https://i.pinimg.com/736x/3d/60/7f/3d607f9f497e343671c2411718bf8707.jpg" width="200">
-              </td>
-              <td> <ul>
-                <li> 2 slices of bread</li>  
-                <li> 1 cup of heavy cream</li>
-                <li> 2 (or 1) tablespoons of sugar </li>
-                <li> 5 Strawberries (or other fruits) </li>
-                
-             
-          </ul>
-              <td> $10 </td>
-              </tr>
-            </tbody>
-          
-        </table>
+          <td>
+            <ul>
+              <li>Deep fried chicken/pork cutlet</li>
+              <li>Curry sauce</li>
+              <li>Vegetables (carrots, potatoes, onions)</li>
+              <li>Steamed rice</li>
+            </ul>
+          </td>
+          <td>$16</td>
+        </tr>
 
- <h2 id="fruit-sando">Recipe #1</h2>
+        <tr class="fruit-sando">
+          <td class= "recipe3">
+            Fruit Sando  <br />
+            <img
+              src="https://i.pinimg.com/736x/3d/60/7f/3d607f9f497e343671c2411718bf8707.jpg"
+              width="200"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>Slices of bread</li>
+              <li>Heavy cream</li>
+              <li>Sugar</li>
+              <li>Strawberries (or other fruits)</li>
+            </ul>
+          </td>
+          <td>$10</td>
+        </tr>
+      </tbody>
+    </table>
 
-  <ul>
-    <li>Time: 30 min</li>
-    <li> 1 serving </li>
-  </ul>
+    <h2 class= "recipe3"> Recipe #3 </h2>
 
-  
+    <ul class= "fruit-sando">
+      <li>Time: 75 min (15m prep + 60m chilling) </li>
+      <li> 2 servings</li>
+    </ul>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+    <p class= "fruit-sando"><strong class="recipe3" >Step 1:</strong> Whip together 1 cup of heavy cream with 2 (or 1) tablespoons of sugar.
+    <br> <strong class="recipe3">Step 2:</strong> Spread on 2 pieces of bread and lay down strawberries/fruits
+    
+    </p>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-  
-  
-  
-  
-  
-  
-  
-    </body>
+    <p>
+      <em>Source: <a href="?">Some recipes websites</a></em>
+    </p>
+  </body>
 </html>
