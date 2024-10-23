@@ -25,6 +25,7 @@ Select ONE Additional Feature to Add
       }
       body {background-color: rgb(255, 248, 232)}
       .recipe1 {color: rgb(63, 162, 246)}
+      .tomato-egg:hover {color: rgb(63, 162, 246)}
       .recipe2 {color: rgb(239, 166, 47)}
       .katsu-curry:hover {color: rgb(239, 166, 47) }
       .recipe3 {color: rgb(246, 126, 125);}
@@ -38,10 +39,15 @@ Select ONE Additional Feature to Add
   <body>
     <h1>Ally's Recipe Book !!</h1>
 
-    <h2>Contents:</h2>
+    <h2>Contents:</h2> <h4>
+    
+    </h4>
+    
 
     <ol>
-      <li><a href="?">Recipe #1</a></li>
+      <li><a href="#recipe#1">Recipe #1: Tomato Egg Stir-Fry</a></li>
+      <li> <a href="#recipe#2">Recipe #2: Katsu Curry </a> </li>
+      <li></li>
     </ol>
 
     <table>
@@ -53,17 +59,14 @@ Select ONE Additional Feature to Add
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="tomato-egg">
           <td class="recipe1">
             Tomato Egg Stir-Fry w/Rice <br />
             <img
               src="https://thewoksoflife.com/wp-content/uploads/2019/05/tomato-egg-9.jpg"
               width="200"
             />
-            <br />
-            <a href="https://thewoksoflife.com/stir-fried-tomato-and-egg/">
-              More about Tomato Egg Stir-Fry</a
-            >
+           
           </td>
           <td>
             <ul>
@@ -85,12 +88,9 @@ Select ONE Additional Feature to Add
               src="https://thewoksoflife.com/wp-content/uploads/2022/03/chicken-katsu-curry-rice-15.jpg"
               width="200"
             />
-            <br />
-            <a
-              href="https://japan.recipetineats.com/katsu-curry-japanese-curry-rice-with-chicken-cutlet/"
-            >
-              Detailed Recipe for Katsu Curry!!</a
-            >
+            
+           
+             
           </td>
 
           <td>
@@ -125,9 +125,26 @@ Select ONE Additional Feature to Add
       </tbody>
     </table>
 
-    <h2 class= "recipe2"> Recipe #2 </h2>
+    
+    <h2 class="recipe1" id="recipe#1"> Recipe #1 </h2>
+   <ul class="tomato-egg">
+     <li>Time: 10 min (5m prep + 5 m cooking; excluding rice</li>
+     <li> 1 serving/plate</li>
+    </ul>
+    
+    <p class="tomato-egg"> <strong class="recipe1"> Step 1:</strong> Cut 2 tomatoes into wedges
+      <br> <strong class="recipe1"> Step 2:</strong> Crack and beat 3 eggs in a bowl
+      <br> <strong class="recipe1"> Step 3: </strong> Set the fire to high, add oil, and scramble the eggs. Then set aside
+      <br> <strong class="recipe1"> Step 4: </strong> Add oil to wok, garlic, and then tomatoes and stir fry for a minute
+      <br> <strong class="recipe1"> Step 5: </strong> Add some water, sugar, and msg and stir
+      <br> <strong class="recipe1"> Step 6: </strong> Add the scrambled eggs, mix and cook until the tomatoes are soft, then serve with rice
+      <br> <br> <em class="recipe1"> Source:</em>
+       <a href="https://thewoksoflife.com/stir-fried-tomato-and-egg/"> More about Tomato Egg Stir-Fry</a>
+    </p>
+    
+    <h2 class= "recipe2" id="recipe#2"> Recipe #2 </h2>
     <ul class="katsu-curry">
-      <li> Time: 25 min (5m prep + 20m cooking)</li>
+      <li> Time: 25 min (5m prep + 20m cooking; excluding rice)</li>
       <li> 1 serving/plate </li>
     </ul>
     
@@ -138,12 +155,10 @@ Select ONE Additional Feature to Add
       <br> <strong class="recipe2"> Step 5: </strong> Cook chicken cutlets and serve with curry and rice
      <br> <br> <em class="recipe2">Source:</em>  
            <a href="https://japan.recipetineats.com/katsu-curry-japanese-curry-rice-with-chicken-cutlet/">Detailed Recipe for Katsu Curry!!</a>
-            
     </p>
     
     
-    
-    <h2 class= "recipe3"> Recipe #3 </h2>
+    <h2 class= "recipe3" id="recipe#3"> Recipe #3 </h2>
 
     <ul class= "fruit-sando">
       <li>Time: 75 min (15m prep + 60m chilling) </li>
@@ -152,9 +167,10 @@ Select ONE Additional Feature to Add
 
     <p class= "fruit-sando"><strong class="recipe3" >Step 1:</strong> Whip together 1 cup of heavy cream with 2 (or 1) tablespoons of sugar.
     <br> <strong class="recipe3">Step 2:</strong> Spread half of the cream on 2 pieces of bread 
-      <br> <strong class="recipe3"> Step3: </strong> Lay strawberries down diagonally and add the rest of the cream on top
+      <br> <strong class="recipe3"> Step 3: </strong> Lay strawberries down diagonally and add the rest of the cream on top
       <br> <strong class="recipe3"> Step 4: </strong> Wrap in plastic wrap and mark the diagonal line the strawberries are placed
-    
+    <br> <strong class="recipe3"> Step 5: </strong> Place in the fridge for an hour
+      <br> <strong class= "recipe3"> Step 6:</strong> Take it out, unwrap, and cut the sandwich in half following the marked diagonal
       
     </p>
   </body>
