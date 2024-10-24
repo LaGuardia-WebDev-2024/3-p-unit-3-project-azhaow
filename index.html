@@ -1,60 +1,221 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
+[ y ] Two External Links
+[  y] Table
 [  ] Three CSS Rules
-[  ] Three Images
+[ y ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
-[ no ] Feature 3 - Include a list in a tabl
+[ yes ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      body {
+        background-color: rgb(255, 248, 232);
+      }
+      #title {
+        color: rgb(85, 124, 86);
+      }
+      #contents {
+        color: rgb(74, 98, 138);
+      }
+      .recipe1 {
+        color: rgb(63, 162, 246);
+      }
+      .tomato-egg:hover {
+        color: rgb(63, 162, 246);
+      }
+      .recipe2 {
+        color: rgb(239, 166, 47);
+      }
+      .katsu-curry:hover {
+        color: rgb(239, 166, 47);
+      }
+      .recipe3 {
+        color: rgb(246, 126, 125);
+      }
+      .fruit-sando:hover {
+        color: rgb(246, 126, 125);
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1><strong id="title">Ally's Recipe Book !!</strong></h1>
 
-<body>
+    <h2 id="contents">Contents:</h2>
 
-  <h1>____'s Recipe Book</h1>
+    <a href="#recipe#1">Recipe #1: Tomato Egg Stir-Fry</a>
+    <br />
+    <a href="#recipe#2">Recipe #2: Katsu Curry </a> <br />
+    <a href="recipe#3>"> Recipe #3: Fruit Sando</a> <br />
+    <br />
+    <br />
+    <br />
 
-  <h2>Contents:</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Meal</th>
+          <th>Ingredients</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tomato-egg">
+          <td class="recipe1">
+            Tomato Egg Stir-Fry w/Rice <br />
+            <img
+              src="https://thewoksoflife.com/wp-content/uploads/2019/05/tomato-egg-9.jpg"
+              width="200"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>Tomatoes</li>
+              <li>Fried eggs</li>
+              <li>Salt</li>
+              <li>Sugar</li>
+              <li>Water</li>
+              <li>Desired seasonings (pepper, salt, msg, etc.)</li>
+            </ul>
+          </td>
+          <td>$13</td>
+        </tr>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+        <tr class="katsu-curry">
+          <td class="recipe2">
+            Katsu Curry <br />
+            <img
+              src="https://thewoksoflife.com/wp-content/uploads/2022/03/chicken-katsu-curry-rice-15.jpg"
+              width="200"
+            />
+          </td>
 
-  <h2 id="?">Recipe #1</h2>
+          <td>
+            <ul>
+              <li>Deep fried chicken/pork cutlet</li>
+              <li>Curry sauce</li>
+              <li>Vegetables (carrots, potatoes, onions)</li>
+              <li>Steamed rice</li>
+            </ul>
+          </td>
+          <td>$16</td>
+        </tr>
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+        <tr class="fruit-sando">
+          <td class="recipe3">
+            Fruit Sando <br />
+            <img
+              src="https://i.pinimg.com/736x/3d/60/7f/3d607f9f497e343671c2411718bf8707.jpg"
+              width="200"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>Slices of bread</li>
+              <li>Heavy cream</li>
+              <li>Sugar</li>
+              <li>Strawberries (or other fruits)</li>
+            </ul>
+          </td>
+          <td>$10</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+    <br />
+    <br />
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+    <h2 class="recipe1" id="recipe#1">Recipe #1</h2>
+    <ul class="tomato-egg">
+      <li>Time: 10 min (5m prep + 5 m cooking; excluding rice</li>
+      <li>1 serving/plate</li>
+    </ul>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+    <p class="tomato-egg">
+      <strong class="recipe1"> Step 1:</strong> Cut 2 tomatoes into wedges
+      <br />
+      <strong class="recipe1"> Step 2:</strong> Crack and beat 3 eggs in a bowl
+      <br />
+      <strong class="recipe1"> Step 3: </strong> Set the fire to high, add oil,
+      and scramble the eggs. Then set aside <br />
+      <strong class="recipe1"> Step 4: </strong> Add oil to wok, garlic, and
+      then tomatoes and stir fry for a minute <br />
+      <strong class="recipe1"> Step 5: </strong> Add some water, sugar, and msg
+      and stir <br />
+      <strong class="recipe1"> Step 6: </strong> Add the scrambled eggs, mix and
+      cook until the tomatoes are soft, then serve with rice <br />
+      <br />
+      <em class="recipe1"> Source:</em>
+      <a href="https://thewoksoflife.com/stir-fried-tomato-and-egg/">
+        More about Tomato Egg Stir-Fry</a
+      >
+    </p>
+    <br />
+    <br />
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+    <h2 class="recipe2" id="recipe#2">Recipe #2</h2>
+    <ul class="katsu-curry">
+      <li>Time: 25 min (5m prep + 20m cooking; excluding rice)</li>
+      <li>1 serving/plate</li>
+    </ul>
 
-</body>
+    <p class="katsu-curry">
+      <strong class="recipe2">Step 1: </strong>Add oil and sauté a few pieces of
+      onions in a pot <br />
+      <strong class="recipe2"> Step 2: </strong> Stir in vegetables (carrots,
+      potatoes,etc.) <br />
+      <strong class="recipe2"> Step 3: </strong> Add and boil water into the pot
+      <br />
+      <strong class="recipe2"> Step 4: </strong> Add curry (roux) and cook
+      <br />
+      <strong class="recipe2"> Step 5: </strong> Cook chicken cutlets and serve
+      with curry and rice <br />
+      <br />
+      <em class="recipe2">Source:</em>
+      <a
+        href="https://japan.recipetineats.com/katsu-curry-japanese-curry-rice-with-chicken-cutlet/"
+        >Detailed Recipe for Katsu Curry!!</a
+      >
+    </p>
+    <br />
+    <br />
 
+    <h2 class="recipe3" id="recipe#3">Recipe #3</h2>
+
+    <ul class="fruit-sando">
+      <li>Time: 75 min (15m prep + 60m chilling)</li>
+      <li>2 servings</li>
+    </ul>
+
+    <p class="fruit-sando">
+      <strong class="recipe3">Step 1:</strong> Whip together 1 cup of heavy
+      cream with 2 (or 1) tablespoons of sugar. <br />
+      <strong class="recipe3">Step 2:</strong> Spread half of the cream on 2
+      pieces of bread <br />
+      <strong class="recipe3"> Step 3: </strong> Lay strawberries down
+      diagonally and add the rest of the cream on top <br />
+      <strong class="recipe3"> Step 4: </strong> Wrap in plastic wrap and mark
+      the diagonal line the strawberries are placed <br />
+      <strong class="recipe3"> Step 5: </strong> Place in the fridge for an hour
+      <br />
+      <strong class="recipe3"> Step 6:</strong> Take it out, unwrap, and cut the
+      sandwich in half following the marked diagonal
+    </p>
+  </body>
 </html>
